@@ -6,6 +6,12 @@ A controller for long-form, character-driven interactive fiction. It's intended 
 
 The complete controller is in [`SYSTEM_PROMPT.txt`](SYSTEM_PROMPT.txt).
 
+## SillyTavern
+
+- **Chat Completion APIs:** Put the controller in **AI Response Configuration → Prompt Manager → Main Prompt**.
+- **Text Completion APIs:** Use **Advanced Formatting → System Prompt**.
+- Add your characters and scenario as normal. If you have another preset full of RP-writing rules, test without conflicting instructions first.
+
 ## ChatGPT — quick start
 
 1. Start a new chat and select **GPT-6 with High thinking**, if available.
@@ -27,12 +33,6 @@ For an ongoing RP, I recommend a dedicated **ChatGPT Project**:
 4. Start a chat in the Project and describe your scenario. For the closest match to my tests, **also paste the full controller into that chat at the start**.
 
 Project files are reference context, not guaranteed substitutes for direct instructions. The full controller is also too long to fit into typical Project instruction fields. Project-only memory is useful for keeping different RPs separate, but it doesn't guarantee perfect recall of every event.
-
-## SillyTavern
-
-- **Chat Completion APIs:** Put the controller in **AI Response Configuration → Prompt Manager → Main Prompt**.
-- **Text Completion APIs:** Use **Advanced Formatting → System Prompt**.
-- Add your characters and scenario as normal. If you have another preset full of RP-writing rules, test without conflicting instructions first.
 
 ## Notes
 
